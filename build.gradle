@@ -154,7 +154,7 @@ dependencies {
  implementation 'org.bouncycastle:bc-fips:1.0.2.4'
  implementation 'org.bouncycastle:bcpkix-fips:1.0.7'
 
-  implementation 'info.picocli:picocli:4.7.5'
+  implementation 'info.picocli:picocli:4.7.6'
 
 //  testImplementation 'junit:junit:4.13.1'
 
