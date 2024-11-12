@@ -79,9 +79,11 @@ tasks.findAll { (it.group == 'build') } . each {
   }
 }
 
-// use Java 11
-sourceCompatibility = 1.11
-targetCompatibility = 1.11
+java {
+  // use Java 11
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}
 
 // dependency lints
 gradleLint {
@@ -204,7 +206,7 @@ test {
 
 application {
   // Define the main class for the application.
-  mainClassName = 'de.ebsnet.keygen.KeyGen'
+  mainClass = 'de.ebsnet.keygen.KeyGen'
 }
 
 void prepare() {
