@@ -166,6 +166,14 @@ application {
   mainClass = 'de.ebsnet.keygen.KeyGen'
 }
 
+distributions {
+  main {
+    contents {
+      from 'LICENSE'
+    }
+  }
+}
+
 void prepare() {
   if (System.env['CI_JOB_ID'] == null) {
     String[] hooks = ['pre-commit', 'post-commit']
