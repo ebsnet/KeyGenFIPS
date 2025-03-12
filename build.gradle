@@ -1,15 +1,6 @@
-/**
- * Gradle build file for Java EE projects
- * author: Valentin Brandl
- * created: 2017-06-20
- */
-
 buildscript {
   repositories {
-    maven {
-      url 'http://192.168.118.4:8081/repository/maven-public/'
-      allowInsecureProtocol true
-    }
+    mavenCentral()
   }
 }
 
@@ -35,25 +26,13 @@ group = 'de.ebsnet'
 // version must be set _before_ applying helper.gradle
 version = '1.0.0'
 
-// include helper functions
-apply from: resources.text.fromInsecureUri('http://192.168.118.4/EBSnet/documentation/gradle-doc/raw/master/helper.gradle')
-
-if (!(isProdEnv || environment == 'check')) {
-  // disable spotbugs, pmd on 'dev' builds
-  [tasks.withType(Pmd), tasks.withType(com.github.spotbugs.snom.SpotBugsTask)].each {
-    it.all { enabled = false }
-  }
-}
-
 dependencyLocking {
-  if (isProdEnv) {
-    lockAllConfigurations()
-  }
+  lockAllConfigurations()
 }
 
 spotless {
   java {
-    googleJavaFormat('1.15.0')
+    googleJavaFormat('1.24.0')
   }
 }
 
@@ -70,13 +49,6 @@ tasks.withType(JavaCompile).configureEach {
 
 tasks.withType(Javadoc).configureEach {
   options.encoding = 'UTF-8'
-}
-
-// log the build environment for all tasks from the build group
-tasks.findAll { (it.group == 'build') } . each {
-  it.doFirst {
-    logger.warn((isProdEnv ? 'Production' : 'Development') + ' build')
-  }
 }
 
 java {
@@ -105,14 +77,7 @@ gradleLint {
 
 // remote repositories for 3rd party dependencies
 repositories {
-  if (!isProdEnv) {
-    // local maven repository
-    mavenLocal()
-  }
-  maven {
-    url 'http://192.168.118.4:8081/repository/maven-public/'
-    allowInsecureProtocol true
-  }
+  mavenCentral()
 }
 
 spotbugsMain {
@@ -161,8 +126,6 @@ dependencies {
 
   implementation 'info.picocli:picocli:4.7.6'
 
-//  testImplementation 'junit:junit:4.13.1'
-
   // additional spotbugs detectors
   spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.13.0'
   // TODO activate and fix warnings
@@ -176,12 +139,10 @@ def latestCommitHash = grgit.head().abbreviatedId
 // write application version to version property file
 import org.apache.tools.ant.filters.*
 processResources {
-  filesNotMatching(["**/keys/*"]) {
-    filter ReplaceTokens, tokens: [
-      "version": project.property("version"),
-      "commit": latestCommitHash
-    ]
-  }
+  filter ReplaceTokens, tokens: [
+    "version": project.property("version"),
+    "commit": latestCommitHash
+  ]
 }
 
 // MANIFEST.mf properties
@@ -194,10 +155,6 @@ jar {
     attributes 'Specification-Vendor': 'EBSnet GmbH'
     attributes 'Main-Class': 'de.ebsnet.keygen.KeyGen'
   }
-
-  // from {
-  //   configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
-  // }
 }
 
 test {
@@ -223,5 +180,5 @@ void prepare() {
     }
   }
 }
-prepare()
+// prepare()
 // vim: set filetype=groovy ts=2 sw=2 tw=120 et :
