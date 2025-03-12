@@ -1,8 +1,11 @@
-# KeyGenFIPS
+# EBSnet KeyGenFIPS
 
 [![Build](https://github.com/ebsnet/KeyGenFIPS/actions/workflows/build.yml/badge.svg)](https://github.com/ebsnet/KeyGenFIPS/actions/workflows/build.yml)
 
 Tool to generate FIPS compatible BrainpoolP256r1 keys.
+
+This tool is developed and published by [EBSnet | eEnergy Software
+GmbH](https://www.ebsnet.de).
 
 ## Usage
 
