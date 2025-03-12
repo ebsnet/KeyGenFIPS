@@ -1,0 +1,38 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    open-pull-requests-limit: 10
+    assignees:
+      - vbrandl
+    labels:
+      - dependabot
+      - dependencies
+    groups:
+      minor:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "04:00"
+    open-pull-requests-limit: 10
+    assignees:
+      - vbrandl
+    labels:
+      - dependencies
+      - dependabot
+    groups:
+      minor:
+        patterns:
+          - "*"
+        update-types:
+          - minor
+          - patch
