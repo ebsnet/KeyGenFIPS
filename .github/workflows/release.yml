@@ -19,12 +19,14 @@ jobs:
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
+      - name: Build
+        run: ./gradlew build
       - name: Upload artifacts
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            ./build/distributions/KeyGenFIPS-*.tar
-            ./build/distributions/KeyGenFIPS-*.zip
+            build/distributions/KeyGenFIPS-*.tar
+            build/distributions/KeyGenFIPS-*.zip
 
   changelog:
     name: Update Changelog
