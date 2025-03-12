@@ -23,15 +23,18 @@ import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
+/** Command to generate FIPS compatible Brainpool keys. */
 @Command(
-    name = "KeyGenFIPS",
+    name = "EBSnet KeyGenFIPS",
     mixinStandardHelpOptions = true,
-    version = "1.0",
-    description = "Generate Brainpool Keypairs in FIPS Mode")
-public class KeyGen implements Callable<Void> {
+    versionProvider = VersionProvider.class,
+    description = "Generate Brainpool Key Pairs in FIPS Mode")
+public final class KeyGen implements Callable<Void> {
   static {
     Security.addProvider(new BouncyCastleFipsProvider());
   }
+
+  private static final SecureRandom PRNG = new SecureRandom();
 
   @Option(
       names = {"--out"},
@@ -41,42 +44,65 @@ public class KeyGen implements Callable<Void> {
 
   private static final byte[] PERSONALIZATION_STRING =
       "dies ist unser custom marker".getBytes(StandardCharsets.UTF_8);
-  private static final byte[] NONCE = "TEAG/TEN/TMZ Key Gen Nonce".getBytes(StandardCharsets.UTF_8);
 
   public static void main(final String[] args) {
     new CommandLine(new KeyGen()).execute(args);
   }
 
   public Void call()
-      throws InvalidAlgorithmParameterException, NoSuchAlgorithmException, NoSuchProviderException,
+      throws InvalidAlgorithmParameterException,
+          NoSuchAlgorithmException,
+          NoSuchProviderException,
           IOException {
     final var kp = generateKeyPair();
     final var encoded = encodePEM(kp);
+    // this will fail, if the file under `out` already exists to prevent overwriting existing keys.
     Files.writeString(this.out, encoded, StandardOpenOption.CREATE_NEW);
     return null;
   }
 
+  /**
+   * PEM encode a {@link KeyPair}
+   *
+   * @param kp
+   * @return
+   * @throws IOException
+   */
   private static String encodePEM(final KeyPair kp) throws IOException {
     try (var sw = new StringWriter()) {
       try (var pw = new JcaPEMWriter(sw)) {
         pw.writeObject(kp);
       }
-      final var pem = sw.toString();
-      return pem;
+      return sw.toString();
     }
   }
 
+  /**
+   * Create a FIPS compatible cryptographically secure pseudo-random number generator
+   *
+   * @return
+   */
   private static SecureRandom csprng() {
     final var entSource = new BasicEntropySourceProvider(new SecureRandom(), true);
+    final var nonce = new byte[128];
+    PRNG.nextBytes(nonce);
     final var builder =
         FipsDRBG.SHA512_HMAC
             .fromEntropySource(entSource)
             .setSecurityStrength(256)
             .setEntropyBitsRequired(256)
             .setPersonalizationString(PERSONALIZATION_STRING);
-    return builder.build(NONCE, true);
+    return builder.build(nonce, true);
   }
 
+  /**
+   * Generate a {@code BrainpoolP256r1} keypair.
+   *
+   * @return
+   * @throws NoSuchAlgorithmException
+   * @throws NoSuchProviderException
+   * @throws InvalidAlgorithmParameterException
+   */
   private static KeyPair generateKeyPair()
       throws NoSuchAlgorithmException, NoSuchProviderException, InvalidAlgorithmParameterException {
     final var gen = KeyPairGenerator.getInstance("EC", "BCFIPS");
