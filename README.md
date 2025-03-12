@@ -1,5 +1,7 @@
 # KeyGenFIPS
 
+[![Build](https://github.com/ebsnet/KeyGenFIPS/actions/workflows/build.yml/badge.svg)](https://github.com/ebsnet/KeyGenFIPS/actions/workflows/build.yml)
+
 Tool to generate FIPS compatible BrainpoolP256r1 keys.
 
 ## Usage
