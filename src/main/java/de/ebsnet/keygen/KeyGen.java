@@ -45,6 +45,11 @@ public final class KeyGen implements Callable<Void> {
   private static final byte[] PERSONALIZATION_STRING =
       "dies ist unser custom marker".getBytes(StandardCharsets.UTF_8);
 
+  /**
+   * Entrypoint
+   *
+   * @param args CLI arguments
+   */
   public static void main(final String[] args) {
     new CommandLine(new KeyGen()).execute(args);
   }

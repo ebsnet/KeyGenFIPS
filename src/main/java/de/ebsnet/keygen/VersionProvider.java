@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.util.Properties;
 import picocli.CommandLine;
 
+/**
+ * Provider for the tool version. The version is injected into {@code version.properties} at build
+ * time.
+ */
 public final class VersionProvider implements CommandLine.IVersionProvider {
   @Override
   public String[] getVersion() {
