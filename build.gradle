@@ -11,7 +11,7 @@ plugins {
   id 'com.diffplug.spotless' version '7.0.3'
   // analyze code and find potential bugs
   id 'pmd'
-  id 'com.github.spotbugs' version '6.1.7'
+  id 'com.github.spotbugs' version '6.1.9'
   // test coverage report
   id 'jacoco'
   // maven plugin to upload to repository
@@ -124,10 +124,10 @@ dependencies {
  implementation 'org.bouncycastle:bc-fips:2.1.0'
  implementation 'org.bouncycastle:bcpkix-fips:2.1.9'
 
-  implementation 'info.picocli:picocli:4.7.6'
+  implementation 'info.picocli:picocli:4.7.7'
 
   // additional spotbugs detectors
-  spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.13.0'
+  spotbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.14.0'
   // TODO activate and fix warnings
   // spotbugsPlugins 'com.mebigfatguy.fb-contrib:fb-contrib:7.4.7'// EXPERIMENTAL
   // provides annotations to suppress spotbugs warnings
