@@ -5,7 +5,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] 2025-06-05
+
 ### Dependencies
+
 - Bump `com.diffplug.spotless` from 7.0.2 to 7.0.4 ([#1](https://github.com/ebsnet/KeyGenFIPS/pull/1), [#8](https://github.com/ebsnet/KeyGenFIPS/pull/8))
 - Bump `info.picocli:picocli` from 4.7.6 to 4.7.7 ([#3](https://github.com/ebsnet/KeyGenFIPS/pull/3))
 - Bump `com.h3xstream.findsecbugs:findsecbugs-plugin` from 1.13.0 to 1.14.0 ([#3](https://github.com/ebsnet/KeyGenFIPS/pull/3))

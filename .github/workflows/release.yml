@@ -3,10 +3,12 @@ name: Release
 on:
   push:
     tags:
-      - 'v*.*.*'
+      - "v*"
 
 jobs:
   tests:
+    permissions:
+      checks: write
     uses: ebsnet/KeyGenFIPS/.github/workflows/build.yml@master
 
   publish:
@@ -22,9 +24,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: "temurin"
           java-version: 17
-          cache: 'gradle'
+          cache: "gradle"
       - name: Build
         run: ./gradlew build
       - name: Upload artifacts
