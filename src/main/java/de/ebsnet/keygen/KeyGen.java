@@ -54,13 +54,14 @@ public final class KeyGen implements Callable<Void> {
     new CommandLine(new KeyGen()).execute(args);
   }
 
+  @Override
   public Void call()
       throws InvalidAlgorithmParameterException,
           NoSuchAlgorithmException,
           NoSuchProviderException,
           IOException {
-    final var kp = generateKeyPair();
-    final var encoded = encodePEM(kp);
+    final var keyPair = generateKeyPair();
+    final var encoded = encodePEM(keyPair);
     // this will fail, if the file under `out` already exists to prevent overwriting existing keys.
     Files.writeString(this.out, encoded, StandardOpenOption.CREATE_NEW);
     return null;
@@ -73,12 +74,12 @@ public final class KeyGen implements Callable<Void> {
    * @return
    * @throws IOException
    */
-  private static String encodePEM(final KeyPair kp) throws IOException {
-    try (var sw = new StringWriter()) {
-      try (var pw = new JcaPEMWriter(sw)) {
-        pw.writeObject(kp);
+  private static String encodePEM(final KeyPair keyPair) throws IOException {
+    try (var stringWriter = new StringWriter()) {
+      try (var pemWriter = new JcaPEMWriter(stringWriter)) {
+        pemWriter.writeObject(keyPair);
       }
-      return sw.toString();
+      return stringWriter.toString();
     }
   }
 
