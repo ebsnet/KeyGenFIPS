@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `org.ajoberstar.grgit` from 5.3.0 to 5.3.2 ([#15](https://github.com/ebsnet/KeyGenFIPS/pull/15))
 - Bump `stefanzweifel/git-auto-commit-action` from 5 to 6 ([#13](https://github.com/ebsnet/KeyGenFIPS/pull/13))
 - Bump `org.ajoberstar.grgit` from 5.3.0 to 5.3.2 ([#15](https://github.com/ebsnet/KeyGenFIPS/pull/15))
+- Bump `com.diffplug.spotless` from 7.0.4 to 7.1.0 ([#18](https://github.com/ebsnet/KeyGenFIPS/pull/18))
 
 ## [1.1.0] 2025-06-05
 
