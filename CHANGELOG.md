@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `org.ajoberstar.grgit` from 5.3.0 to 5.3.2 ([#15](https://github.com/ebsnet/KeyGenFIPS/pull/15))
 - Bump `com.diffplug.spotless` from 7.0.4 to 7.2.1 ([#18](https://github.com/ebsnet/KeyGenFIPS/pull/18), [#20](https://github.com/ebsnet/KeyGenFIPS/pull/20), [#21](https://github.com/ebsnet/KeyGenFIPS/pull/21))
 - Bump `org.bouncycastle:bc-fips` from 2.1.0 to 2.1.1 ([#22](https://github.com/ebsnet/KeyGenFIPS/pull/22))
+- Bump `actions/checkout` from 4 to 5 ([#24](https://github.com/ebsnet/KeyGenFIPS/pull/24))
 
 ## [1.1.0] 2025-06-05
 
