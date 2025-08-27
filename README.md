@@ -19,11 +19,11 @@ archive to your liking, extract and execute:
 ./bin/KeyGenFIPS --out tls.key
 ```
 
-Running `KeyGenFIPS` requires at least Java 11.
+Running `KeyGenFIPS` requires at least Java 17.
 
 ## Compiling
 
-Compiling from source requires at least Java JDK 11.
+Compiling from source requires at least Java JDK 17.
 
 `KeyGenFIPS` uses the [Gradle build tool](https://gradle.org/) so you can
 compile the tool by invoking `./gradlew build`.
