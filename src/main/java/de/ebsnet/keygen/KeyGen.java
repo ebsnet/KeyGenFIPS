@@ -39,7 +39,7 @@ public final class KeyGen implements Callable<Void> {
   @Option(
       names = {"--out"},
       required = true,
-      description = "Path to write the CSR to")
+      description = "Path to store the generated key")
   private Path out;
 
   private static final byte[] PERSONALIZATION_STRING =
