@@ -2,21 +2,21 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 com.github.oowekyala.ooxml:nice-xml-messages:3.1=pmd
-com.github.spotbugs:spotbugs-annotations:4.9.4=spotbugs
-com.github.spotbugs:spotbugs:4.9.4=spotbugs
+com.github.spotbugs:spotbugs-annotations:4.9.5=spotbugs
+com.github.spotbugs:spotbugs:4.9.5=spotbugs
 com.github.stephenc.jcip:jcip-annotations:1.0-1=spotbugs
 com.google.code.findbugs:jsr305:3.0.2=spotbugs
 com.google.code.gson:gson:2.13.0=pmd
-com.google.code.gson:gson:2.13.1=spotbugs
+com.google.code.gson:gson:2.13.2=spotbugs
 com.google.errorprone:error_prone_annotations:2.37.0=pmd
-com.google.errorprone:error_prone_annotations:2.38.0=spotbugs
+com.google.errorprone:error_prone_annotations:2.41.0=spotbugs
 com.google.errorprone:error_prone_type_annotations:2.37.0=pmd
 com.h3xstream.findsecbugs:findsecbugs-plugin:1.14.0=spotbugsPlugins
 commons-codec:commons-codec:1.15=pmd
 info.picocli:picocli:4.7.7=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
 jaxen:jaxen:2.0.0=spotbugs
 net.sf.saxon:Saxon-HE:12.5=pmd
-net.sf.saxon:Saxon-HE:12.8=spotbugs
+net.sf.saxon:Saxon-HE:12.9=spotbugs
 net.sourceforge.pmd:pmd-ant:7.13.0=pmd
 net.sourceforge.pmd:pmd-core:7.13.0=pmd
 net.sourceforge.pmd:pmd-java:7.13.0=pmd
