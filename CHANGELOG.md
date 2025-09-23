@@ -6,9 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-- Bump `com.github.spotbugs` from 6.2.5 to 6.4.1 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31), [#33](https://github.com/ebsnet/KeyGenFIPS/pull/33), [#34](https://github.com/ebsnet/KeyGenFIPS/pull/34), [#35](https://github.com/ebsnet/KeyGenFIPS/pull/35))
+- Bump `com.github.spotbugs` from 6.2.5 to 6.4.2 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31), [#33](https://github.com/ebsnet/KeyGenFIPS/pull/33), [#34](https://github.com/ebsnet/KeyGenFIPS/pull/34), [#35](https://github.com/ebsnet/KeyGenFIPS/pull/35), [#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 - Bump `org.ajoberstar.grgit` from 5.3.2 to 5.3.3 ([#33](https://github.com/ebsnet/KeyGenFIPS/pull/33))
 - Bump `com.github.spotbugs` from 6.2.5 to 6.2.6 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31))
+- Bump `org.bouncycastle:bc-fips` from 2.1.1 to 2.1.2 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
+- Bump `org.bouncycastle:bcpkix-fips` from 2.1.9 to 2.1.10 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 
 ## [1.2.0] 2025-08-27
 
