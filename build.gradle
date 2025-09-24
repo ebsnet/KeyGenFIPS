@@ -11,7 +11,7 @@ plugins {
   id 'com.diffplug.spotless' version '7.2.1'
   // analyze code and find potential bugs
   id 'pmd'
-  id 'com.github.spotbugs' version '6.4.1'
+  id 'com.github.spotbugs' version '6.4.2'
   // test coverage report
   id 'jacoco'
   // maven plugin to upload to repository
@@ -114,8 +114,8 @@ dependencies {
   // implementation "org.bouncycastle:bcutil-jdk18on:${versions.bc}"
   // implementation "org.bouncycastle:bcprov-jdk18on:${versions.bc}"
 
- implementation 'org.bouncycastle:bc-fips:2.1.1'
- implementation 'org.bouncycastle:bcpkix-fips:2.1.9'
+ implementation 'org.bouncycastle:bc-fips:2.1.2'
+ implementation 'org.bouncycastle:bcpkix-fips:2.1.10'
 
   implementation 'info.picocli:picocli:4.7.7'
 

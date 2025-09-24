@@ -2,8 +2,8 @@
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
 com.github.oowekyala.ooxml:nice-xml-messages:3.1=pmd
-com.github.spotbugs:spotbugs-annotations:4.9.5=spotbugs
-com.github.spotbugs:spotbugs:4.9.5=spotbugs
+com.github.spotbugs:spotbugs-annotations:4.9.6=spotbugs
+com.github.spotbugs:spotbugs:4.9.6=spotbugs
 com.github.stephenc.jcip:jcip-annotations:1.0-1=spotbugs
 com.google.code.findbugs:jsr305:3.0.2=spotbugs
 com.google.code.gson:gson:2.13.0=pmd
@@ -30,9 +30,9 @@ org.apache.httpcomponents.core5:httpcore5-h2:5.1.3=pmd
 org.apache.httpcomponents.core5:httpcore5:5.1.3=pmd
 org.apache.logging.log4j:log4j-api:2.25.1=spotbugs
 org.apache.logging.log4j:log4j-core:2.25.1=spotbugs
-org.bouncycastle:bc-fips:2.1.1=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
-org.bouncycastle:bcpkix-fips:2.1.9=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
-org.bouncycastle:bcutil-fips:2.1.4=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
+org.bouncycastle:bc-fips:2.1.2=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
+org.bouncycastle:bcpkix-fips:2.1.10=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
+org.bouncycastle:bcutil-fips:2.1.5=compileClasspath,mainPmdAuxClasspath,runtimeClasspath,testCompileClasspath,testPmdAuxClasspath,testRuntimeClasspath
 org.checkerframework:checker-qual:3.49.2=pmd
 org.dom4j:dom4j:2.2.0=spotbugs
 org.jacoco:org.jacoco.agent:0.8.13=jacocoAgent,jacocoAnt
