@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `org.bouncycastle:bc-fips` from 2.1.1 to 2.1.2 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 - Bump `org.bouncycastle:bcpkix-fips` from 2.1.9 to 2.1.10 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 - Bump `stefanzweifel/git-auto-commit-action` from 6 to 7 ([#40](https://github.com/ebsnet/KeyGenFIPS/pull/40))
+- Bump `com.diffplug.spotless` from 7.2.1 to 8.0.0 ([#38](https://github.com/ebsnet/KeyGenFIPS/pull/38))
 
 ## [1.2.0] 2025-08-27
 
