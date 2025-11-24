@@ -6,13 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-- Bump `com.github.spotbugs` from 6.2.5 to 6.4.3 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31), [#33](https://github.com/ebsnet/KeyGenFIPS/pull/33), [#34](https://github.com/ebsnet/KeyGenFIPS/pull/34), [#35](https://github.com/ebsnet/KeyGenFIPS/pull/35), [#37](https://github.com/ebsnet/KeyGenFIPS/pull/37), [#41](https://github.com/ebsnet/KeyGenFIPS/pull/41))
+- Bump `com.github.spotbugs` from 6.2.5 to 6.4.5 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31), [#33](https://github.com/ebsnet/KeyGenFIPS/pull/33), [#34](https://github.com/ebsnet/KeyGenFIPS/pull/34), [#35](https://github.com/ebsnet/KeyGenFIPS/pull/35), [#37](https://github.com/ebsnet/KeyGenFIPS/pull/37), [#41](https://github.com/ebsnet/KeyGenFIPS/pull/41), [#43](https://github.com/ebsnet/KeyGenFIPS/pull/43))
 - Bump `org.ajoberstar.grgit` from 5.3.2 to 5.3.3 ([#33](https://github.com/ebsnet/KeyGenFIPS/pull/33))
 - Bump `com.github.spotbugs` from 6.2.5 to 6.2.6 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31))
 - Bump `org.bouncycastle:bc-fips` from 2.1.1 to 2.1.2 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 - Bump `org.bouncycastle:bcpkix-fips` from 2.1.9 to 2.1.10 ([#37](https://github.com/ebsnet/KeyGenFIPS/pull/37))
 - Bump `stefanzweifel/git-auto-commit-action` from 6 to 7 ([#40](https://github.com/ebsnet/KeyGenFIPS/pull/40))
-- Bump `com.diffplug.spotless` from 7.2.1 to 8.0.0 ([#38](https://github.com/ebsnet/KeyGenFIPS/pull/38))
+- Bump `com.diffplug.spotless` from 7.2.1 to 8.1.0 ([#38](https://github.com/ebsnet/KeyGenFIPS/pull/38), [#43](https://github.com/ebsnet/KeyGenFIPS/pull/43))
 - Bump `nebula.lint` from 21.1.1 to 21.1.3 ([#41](https://github.com/ebsnet/KeyGenFIPS/pull/41))
 
 ## [1.2.0] 2025-08-27
