@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `stefanzweifel/git-auto-commit-action` from 6 to 7 ([#40](https://github.com/ebsnet/KeyGenFIPS/pull/40))
 - Bump `com.diffplug.spotless` from 7.2.1 to 8.1.0 ([#38](https://github.com/ebsnet/KeyGenFIPS/pull/38), [#43](https://github.com/ebsnet/KeyGenFIPS/pull/43))
 - Bump `nebula.lint` from 21.1.1 to 21.1.3 ([#41](https://github.com/ebsnet/KeyGenFIPS/pull/41))
+- Bump `actions/checkout` from 5 to 6 ([#44](https://github.com/ebsnet/KeyGenFIPS/pull/44))
 
 ## [1.2.0] 2025-08-27
 
