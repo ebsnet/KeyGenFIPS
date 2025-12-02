@@ -5,6 +5,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] 2025-12-02
+
 ### Dependencies
 - Bump `com.github.spotbugs` from 6.2.5 to 6.4.7 ([#31](https://github.com/ebsnet/KeyGenFIPS/pull/31), [#33](https://github.com/ebsnet/KeyGenFIPS/pull/33), [#34](https://github.com/ebsnet/KeyGenFIPS/pull/34), [#35](https://github.com/ebsnet/KeyGenFIPS/pull/35), [#37](https://github.com/ebsnet/KeyGenFIPS/pull/37), [#41](https://github.com/ebsnet/KeyGenFIPS/pull/41), [#43](https://github.com/ebsnet/KeyGenFIPS/pull/43), [#45](https://github.com/ebsnet/KeyGenFIPS/pull/45), [#46](https://github.com/ebsnet/KeyGenFIPS/pull/46))
 - Bump `org.ajoberstar.grgit` from 5.3.2 to 5.3.3 ([#33](https://github.com/ebsnet/KeyGenFIPS/pull/33))
