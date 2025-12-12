@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Dependencies
+
+- Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
+
 ## [1.3.0] 2025-12-02
 
 ### Dependencies
