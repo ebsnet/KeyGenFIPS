@@ -6,7 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-
+- Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
+- Bump `com.diffplug.spotless` from 8.1.0 to 8.2.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50))
+- Bump `gradle-wrapper` from 9.0.0 to 9.3.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50))
 - Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
 
 ## [1.3.0] 2025-12-02
