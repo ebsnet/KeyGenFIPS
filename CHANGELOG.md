@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Dependencies
 - Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
-- Bump `com.diffplug.spotless` from 8.1.0 to 8.3.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#51](https://github.com/ebsnet/KeyGenFIPS/pull/51), [#53](https://github.com/ebsnet/KeyGenFIPS/pull/53))
+- Bump `com.diffplug.spotless` from 8.1.0 to 8.4.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#51](https://github.com/ebsnet/KeyGenFIPS/pull/51), [#53](https://github.com/ebsnet/KeyGenFIPS/pull/53), [#56](https://github.com/ebsnet/KeyGenFIPS/pull/56))
 - Bump `gradle-wrapper` from 9.0.0 to 9.4.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#52](https://github.com/ebsnet/KeyGenFIPS/pull/52), [#55](https://github.com/ebsnet/KeyGenFIPS/pull/55))
 - Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
 - Bump `lcollins/pmd-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
