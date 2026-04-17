@@ -115,7 +115,7 @@ dependencies {
   // implementation "org.bouncycastle:bcprov-jdk18on:${versions.bc}"
 
  implementation 'org.bouncycastle:bc-fips:2.1.2'
- implementation 'org.bouncycastle:bcpkix-fips:2.1.10'
+ implementation 'org.bouncycastle:bcpkix-fips:2.1.11'
 
   implementation 'info.picocli:picocli:4.7.7'
 
