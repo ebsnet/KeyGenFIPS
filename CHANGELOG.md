@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `lcollins/spotbugs-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
 - Bump `softprops/action-gh-release` from 2 to 3 ([#58](https://github.com/ebsnet/KeyGenFIPS/pull/58))
 - Bump `org.bouncycastle:bcpkix-fips` from 2.1.10 to 2.1.11 ([#61](https://github.com/ebsnet/KeyGenFIPS/pull/61))
+- Bump `nebula.lint` from 21.1.3 to 21.2.0 ([#62](https://github.com/ebsnet/KeyGenFIPS/pull/62))
 
 ## [1.3.0] 2025-12-02
 
