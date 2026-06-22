@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `softprops/action-gh-release` from 2 to 3 ([#58](https://github.com/ebsnet/KeyGenFIPS/pull/58))
 - Bump `org.bouncycastle:bcpkix-fips` from 2.1.10 to 2.1.11 ([#61](https://github.com/ebsnet/KeyGenFIPS/pull/61))
 - Bump `nebula.lint` from 21.1.3 to 21.2.1 ([#62](https://github.com/ebsnet/KeyGenFIPS/pull/62), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70))
+- Bump `actions/checkout` from 6 to 7 ([#73](https://github.com/ebsnet/KeyGenFIPS/pull/73))
 
 ## [1.3.0] 2025-12-02
 
