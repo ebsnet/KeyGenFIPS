@@ -6,14 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Dependencies
-- Bump `com.github.spotbugs` from 6.4.7 to 6.5.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48), [#59](https://github.com/ebsnet/KeyGenFIPS/pull/59), [#61](https://github.com/ebsnet/KeyGenFIPS/pull/61), [#64](https://github.com/ebsnet/KeyGenFIPS/pull/64), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70), [#71](https://github.com/ebsnet/KeyGenFIPS/pull/71), [#75](https://github.com/ebsnet/KeyGenFIPS/pull/75))
+- Bump `com.github.spotbugs` from 6.4.7 to 6.5.9 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48), [#59](https://github.com/ebsnet/KeyGenFIPS/pull/59), [#61](https://github.com/ebsnet/KeyGenFIPS/pull/61), [#64](https://github.com/ebsnet/KeyGenFIPS/pull/64), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70), [#71](https://github.com/ebsnet/KeyGenFIPS/pull/71), [#75](https://github.com/ebsnet/KeyGenFIPS/pull/75), [#78](https://github.com/ebsnet/KeyGenFIPS/pull/78))
 - Bump `com.diffplug.spotless` from 8.1.0 to 8.8.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#51](https://github.com/ebsnet/KeyGenFIPS/pull/51), [#53](https://github.com/ebsnet/KeyGenFIPS/pull/53), [#57](https://github.com/ebsnet/KeyGenFIPS/pull/57), [#66](https://github.com/ebsnet/KeyGenFIPS/pull/66), [#67](https://github.com/ebsnet/KeyGenFIPS/pull/67), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70), [#72](https://github.com/ebsnet/KeyGenFIPS/pull/72), [#77](https://github.com/ebsnet/KeyGenFIPS/pull/77))
 - Bump `gradle-wrapper` from 9.0.0 to 9.6.1 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#52](https://github.com/ebsnet/KeyGenFIPS/pull/52), [#55](https://github.com/ebsnet/KeyGenFIPS/pull/55), [#57](https://github.com/ebsnet/KeyGenFIPS/pull/57), [#63](https://github.com/ebsnet/KeyGenFIPS/pull/63), [#66](https://github.com/ebsnet/KeyGenFIPS/pull/66), [#75](https://github.com/ebsnet/KeyGenFIPS/pull/75), [#76](https://github.com/ebsnet/KeyGenFIPS/pull/76))
 - Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
 - Bump `lcollins/pmd-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
 - Bump `lcollins/spotbugs-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
 - Bump `softprops/action-gh-release` from 2 to 3 ([#58](https://github.com/ebsnet/KeyGenFIPS/pull/58))
-- Bump `org.bouncycastle:bcpkix-fips` from 2.1.10 to 2.1.11 ([#61](https://github.com/ebsnet/KeyGenFIPS/pull/61))
+- Bump `org.bouncycastle:bcpkix-fips` from 2.1.10 to 2.1.12 ([#61](https://github.com/ebsnet/KeyGenFIPS/pull/61), [#78](https://github.com/ebsnet/KeyGenFIPS/pull/78))
 - Bump `nebula.lint` from 21.1.3 to 21.2.1 ([#62](https://github.com/ebsnet/KeyGenFIPS/pull/62), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70))
 - Bump `actions/checkout` from 6 to 7 ([#73](https://github.com/ebsnet/KeyGenFIPS/pull/73))
 
