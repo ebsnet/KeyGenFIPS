@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `gradle-wrapper` from 9.0.0 to 9.7.0 ([#50](https://github.com/ebsnet/KeyGenFIPS/pull/50), [#52](https://github.com/ebsnet/KeyGenFIPS/pull/52), [#55](https://github.com/ebsnet/KeyGenFIPS/pull/55), [#57](https://github.com/ebsnet/KeyGenFIPS/pull/57), [#63](https://github.com/ebsnet/KeyGenFIPS/pull/63), [#66](https://github.com/ebsnet/KeyGenFIPS/pull/66), [#75](https://github.com/ebsnet/KeyGenFIPS/pull/75), [#76](https://github.com/ebsnet/KeyGenFIPS/pull/76), [#81](https://github.com/ebsnet/KeyGenFIPS/pull/81))
 - Bump `com.github.spotbugs` from 6.4.7 to 6.4.8 ([#48](https://github.com/ebsnet/KeyGenFIPS/pull/48))
 - Bump `lcollins/pmd-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
-- Bump `lcollins/spotbugs-github-action` from 3.1.0 to 3.2.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54))
+- Bump `lcollins/spotbugs-github-action` from 3.1.0 to 4.0.0 ([#54](https://github.com/ebsnet/KeyGenFIPS/pull/54), [#82](https://github.com/ebsnet/KeyGenFIPS/pull/82))
 - Bump `softprops/action-gh-release` from 2 to 3 ([#58](https://github.com/ebsnet/KeyGenFIPS/pull/58))
 - Bump `org.bouncycastle:bcpkix-fips` from 2.1.10 to 2.1.12 ([#61](https://github.com/ebsnet/KeyGenFIPS/pull/61), [#78](https://github.com/ebsnet/KeyGenFIPS/pull/78))
 - Bump `nebula.lint` from 21.1.3 to 21.2.1 ([#62](https://github.com/ebsnet/KeyGenFIPS/pull/62), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70))
