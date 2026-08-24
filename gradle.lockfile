@@ -3,8 +3,8 @@
 # This file is expected to be part of source control.
 # To regenerate this file, run: ./gradlew :dependencies --write-locks
 com.github.oowekyala.ooxml:nice-xml-messages:3.1=pmd
-com.github.spotbugs:spotbugs-annotations:4.10.3=spotbugs
-com.github.spotbugs:spotbugs:4.10.3=spotbugs
+com.github.spotbugs:spotbugs-annotations:4.10.4=spotbugs
+com.github.spotbugs:spotbugs:4.10.4=spotbugs
 com.github.stephenc.jcip:jcip-annotations:1.0-1=spotbugs
 com.google.code.findbugs:jsr305:3.0.2=spotbugs
 com.google.code.gson:gson:2.13.2=pmd
@@ -35,7 +35,6 @@ org.jacoco:org.jacoco.agent:0.8.14=jacocoAgent,jacocoAnt
 org.jacoco:org.jacoco.ant:0.8.14=jacocoAnt
 org.jacoco:org.jacoco.core:0.8.14=jacocoAnt
 org.jacoco:org.jacoco.report:0.8.14=jacocoAnt
-org.junit:junit-bom:6.1.2=spotbugs
 org.ow2.asm:asm-analysis:9.10.1=spotbugs
 org.ow2.asm:asm-commons:9.10.1=spotbugs
 org.ow2.asm:asm-commons:9.9=jacocoAnt
