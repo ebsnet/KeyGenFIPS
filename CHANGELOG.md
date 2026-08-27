@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Bump `nebula.lint` from 21.1.3 to 21.2.1 ([#62](https://github.com/ebsnet/KeyGenFIPS/pull/62), [#70](https://github.com/ebsnet/KeyGenFIPS/pull/70))
 - Bump `actions/checkout` from 6 to 7 ([#73](https://github.com/ebsnet/KeyGenFIPS/pull/73))
 - Bump `org.bouncycastle:bc-fips` from 2.1.2 to 2.1.3 ([#79](https://github.com/ebsnet/KeyGenFIPS/pull/79))
+- Bump `actions/setup-java` from 5 to 6 ([#86](https://github.com/ebsnet/KeyGenFIPS/pull/86))
 
 ## [1.3.0] 2025-12-02
 
